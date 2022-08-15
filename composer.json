@@ -1,5 +1,21 @@
 {
     "name": "devysm/enum-mapper",
+    "description": "Map the enum values in short codes with enum mapper class.",
+    "keywords": [
+        "enum",
+        "mapper",
+        "php enum",
+        "enum to array"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Yassen Sayed",
+            "email": "devysm2019@gmail.com",
+            "homepage": "https://yassensayed.com/",
+            "role": "Developer"
+        }
+    ],
     "autoload": {
         "psr-4": {
             "Devysm\\EnumMapper\\": "src/"
