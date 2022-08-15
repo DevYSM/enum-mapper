@@ -8,5 +8,11 @@
     "require": {
         "php": "^8.0|^8.1"
     },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/DevYSM/enum-mapper"
+        }
+    ],
     "minimum-stability": "dev"
 }
