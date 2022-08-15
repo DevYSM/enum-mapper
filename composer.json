@@ -1,0 +1,11 @@
+{
+    "name": "devysm/enum-mapper",
+    "autoload": {
+        "psr-4": {
+            "Devysm\\EnumMapper\\": "src/"
+        }
+    },
+    "require": {
+        "php": "^8.0|^8.1"
+    }
+}
