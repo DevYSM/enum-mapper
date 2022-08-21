@@ -30,9 +30,9 @@ class EnumMapper
     {
         if (!enum_exists($enum)) throw new Exception("$enum is not defined.");
 
-        $this->cases = $enum::cases();
-
-        return $this;
+        $instance = (new self());
+        $instance->cases = $enum::cases();
+        return $instance;
     }
 
     /**
