@@ -15,7 +15,6 @@ Add badges from somewhere like: [shields.io](https://shields.io/)
 
 ## You can install the package via composer using the following command.
 
-To deploy this project run
 
 ```bash
   composer require devysm/enum-mapper
